@@ -133,7 +133,7 @@ button:hover {
     }
 
     .container, .login-container {
-        width: 90%;
+        width: 70%;
         max-width: none;
     }
 
@@ -157,7 +157,7 @@ button:hover {
 
 @media (max-width: 480px) {
     .container, .login-container {
-        width: 100%;
+        width: 90%;
         padding: 10px;
         max-width: none;
     }
