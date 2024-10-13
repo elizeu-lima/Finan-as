@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Despesas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Controle de Despesas</h2>
+        <form id="expense-form">
+            <input type="text" id="expense-name" placeholder="Nome da Despesa" required>
+            <input type="number" id="expense-value" placeholder="Valor da Despesa" required>
+            <button type="submit">Adicionar Despesa</button>
+        </form>
+
+        <table id="expenses-table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Valor (R$)</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Despesas vão ser inseridas aqui via JavaScript -->
+            </tbody>
+        </table>
+
+        <div class="totals">
+            <p>Total do mês: R$ <span id="monthly-total">0.00</span></p>
+            <p>Total do ano: R$ <span id="yearly-total">0.00</span></p>
+        </div>
+
+        <button id="logout-button">Sair</button>
+    </div>
+
+    <script src="despesas.js"></script>
+</body>
+</html>
