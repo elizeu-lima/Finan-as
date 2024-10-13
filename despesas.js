@@ -119,5 +119,5 @@ function toggleYear(year) {
 
 // Função para redirecionar para a página de login ao clicar no botão "Sair"
 document.getElementById('logout-button').addEventListener('click', function() {
-    window.location.href = 'login.html'; // Redireciona para a página de login
+    window.location.href = 'index.html'; // Redireciona para a página de login
 });
